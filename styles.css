@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b0d17;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0b0d17;
+  border-bottom: 1px solid #222;
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight:normal;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: #6b4eff;
+}
+
+.planet-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.planet-img.earth {
+  background-image: url('images/earth.png');
+}
+
+.planet-details {
+  max-width: 500px;
+}
+
+.planet-details h2{
+   font-size: 1.0rem;
+}
+
+.tabs {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.tab.active,
+.tab:hover {
+  background-color: #6b4eff;
+  border-color: #6b4eff;
+}
+
+.planet-stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.stat {
+  border: 1px solid #444;
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 200px;
+  text-align: center;
+}
+
+.source {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.hidden {
+  display: none;
+}
+
+.planet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.planet-card {
+  background-color: #1e213a;
+  padding: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.planet-card:hover {
+  transform: scale(1.05);
+}
+
+.planet-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.navbar {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0b0d17;
+  color: white;
+  font-size: 1.5rem;
+}

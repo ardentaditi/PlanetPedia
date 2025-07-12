@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Planets - Saturn</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>THE PLANETS</h1>
+      <ul class="nav-links">
+        <li><a href="mercury.html">MERCURY</a></li>
+        <li><a href="venus.html">VENUS</a></li>
+        <li><a href="earth.html">EARTH</a></li>
+        <li><a href="mars.html">MARS</a></li>
+        <li><a href="jupiter.html">JUPITER</a></li>
+        <li><a href="saturn.html" class="active">SATURN</a></li>
+        <li><a href="uranus.html">URANUS</a></li>
+        <li><a href="neptune.html">NEPTUNE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="planet-info">
+      <div class="planet-img saturn">
+        <img src="images/planet-saturn.svg" alt="Saturn" style="width: 250px; display: block; margin: 20px auto;" />
+      </div>
+      <div class="planet-details">
+        <h2>SATURN</h2>
+        <p class="overview active">
+          Saturn is the second-largest planet and is well known for its spectacular ring system, made up of ice and rock.
+        </p>
+        <p class="internal-structure hidden">
+          Saturn has a core of iron and nickel surrounded by metallic hydrogen and a thick outer layer of gas.
+        </p>
+        <p class="surface-geology hidden">
+          Like Jupiter, Saturn has no solid surface. Its visible bands and storms form in the outer gaseous layers.
+        </p>
+        <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Saturn" target="_blank">Wikipedia</a></p>
+        <div class="tabs">
+          <button class="tab active" data-tab="overview">01 OVERVIEW</button>
+          <button class="tab" data-tab="internal-structure">02 INTERNAL STRUCTURE</button>
+          <button class="tab" data-tab="surface-geology">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="planet-stats">
+      <div class="stat">
+        <h3>ROTATION TIME</h3>
+        <p>10.7 HOURS</p>
+      </div>
+      <div class="stat">
+        <h3>REVOLUTION TIME</h3>
+        <p>29.5 YEARS</p>
+      </div>
+      <div class="stat">
+        <h3>RADIUS</h3>
+        <p>58,232 KM</p>
+      </div>
+      <div class="stat">
+        <h3>AVERAGE TEMP.</h3>
+        <p>-139°C</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

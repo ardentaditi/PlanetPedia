@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Planets - Venus</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>THE PLANETS</h1>
+      <ul class="nav-links">
+        <li><a href="mercury.html">MERCURY</a></li>
+        <li><a href="venus.html" class="active">VENUS</a></li>
+        <li><a href="earth.html">EARTH</a></li>
+        <li><a href="mars.html">MARS</a></li>
+        <li><a href="jupiter.html">JUPITER</a></li>
+        <li><a href="saturn.html">SATURN</a></li>
+        <li><a href="uranus.html">URANUS</a></li>
+        <li><a href="neptune.html">NEPTUNE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="planet-info">
+      <div class="planet-img venus">
+        <img src="images/planet-venus.svg" alt="Venus" style="width: 250px; display: block; margin: 20px auto;" />
+      </div>
+      <div class="planet-details">
+        <h2>VENUS</h2>
+        <p class="overview active">
+          Venus is the second planet from the Sun and is similar in structure and size to Earth, but with a thick, toxic atmosphere that traps heat. It is the hottest planet in the solar system.
+        </p>
+        <p class="internal-structure hidden">
+          Venus has a central iron core and a rocky mantle, similar to the composition of Earth. However, its lack of plate tectonics makes its internal heat escape differently.
+        </p>
+        <p class="surface-geology hidden">
+          The surface of Venus is covered with volcanic plains and has large highland regions. It features more volcanoes than any other planet.
+        </p>
+        <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Venus" target="_blank">Wikipedia</a></p>
+        <div class="tabs">
+          <button class="tab active" data-tab="overview">01 OVERVIEW</button>
+          <button class="tab" data-tab="internal-structure">02 INTERNAL STRUCTURE</button>
+          <button class="tab" data-tab="surface-geology">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="planet-stats">
+      <div class="stat">
+        <h3>ROTATION TIME</h3>
+        <p>243 DAYS</p>
+      </div>
+      <div class="stat">
+        <h3>REVOLUTION TIME</h3>
+        <p>224.7 DAYS</p>
+      </div>
+      <div class="stat">
+        <h3>RADIUS</h3>
+        <p>6,051.8 KM</p>
+      </div>
+      <div class="stat">
+        <h3>AVERAGE TEMP.</h3>
+        <p>464°C</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

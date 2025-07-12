@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Planets - Mars</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>THE PLANETS</h1>
+      <ul class="nav-links">
+        <li><a href="mercury.html">MERCURY</a></li>
+        <li><a href="venus.html">VENUS</a></li>
+        <li><a href="earth.html">EARTH</a></li>
+        <li><a href="mars.html" class="active">MARS</a></li>
+        <li><a href="jupiter.html">JUPITER</a></li>
+        <li><a href="saturn.html">SATURN</a></li>
+        <li><a href="uranus.html">URANUS</a></li>
+        <li><a href="neptune.html">NEPTUNE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="planet-info">
+      <div class="planet-img mars">
+        <img src="images/planet-mars.svg" alt="Mars" style="width: 250px; display: block; margin: 20px auto;" />
+      </div>
+      <div class="planet-details">
+        <h2>MARS</h2>
+        <p class="overview active">
+          Mars is the fourth planet from the Sun and is known as the Red Planet. It has the tallest volcano and deepest canyon in the solar system.
+        </p>
+        <p class="internal-structure hidden">
+          Mars has a core made of iron, nickel, and sulfur, surrounded by a silicate mantle and crust.
+        </p>
+        <p class="surface-geology hidden">
+          The surface has rocky plains, enormous volcanoes like Olympus Mons, and the vast canyon Valles Marineris.
+        </p>
+        <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Mars" target="_blank">Wikipedia</a></p>
+        <div class="tabs">
+          <button class="tab active" data-tab="overview">01 OVERVIEW</button>
+          <button class="tab" data-tab="internal-structure">02 INTERNAL STRUCTURE</button>
+          <button class="tab" data-tab="surface-geology">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="planet-stats">
+      <div class="stat">
+        <h3>ROTATION TIME</h3>
+        <p>1.03 DAYS</p>
+      </div>
+      <div class="stat">
+        <h3>REVOLUTION TIME</h3>
+        <p>687 DAYS</p>
+      </div>
+      <div class="stat">
+        <h3>RADIUS</h3>
+        <p>3,389.5 KM</p>
+      </div>
+      <div class="stat">
+        <h3>AVERAGE TEMP.</h3>
+        <p>-63°C</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

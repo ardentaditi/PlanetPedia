@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Planets - Neptune</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>THE PLANETS</h1>
+      <ul class="nav-links">
+        <li><a href="mercury.html">MERCURY</a></li>
+        <li><a href="venus.html">VENUS</a></li>
+        <li><a href="earth.html">EARTH</a></li>
+        <li><a href="mars.html">MARS</a></li>
+        <li><a href="jupiter.html">JUPITER</a></li>
+        <li><a href="saturn.html">SATURN</a></li>
+        <li><a href="uranus.html">URANUS</a></li>
+        <li><a href="neptune.html" class="active">NEPTUNE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="planet-info">
+      <div class="planet-img neptune">
+        <img src="images/planet-neptune.svg" alt="Neptune" style="width: 250px; display: block; margin: 20px auto;" />
+      </div>
+      <div class="planet-details">
+        <h2>NEPTUNE</h2>
+        <p class="overview active">
+          Neptune is the farthest planet from the Sun and is known for its deep blue color, supersonic winds, and storm systems like the Great Dark Spot.
+        </p>
+        <p class="internal-structure hidden">
+          Neptune has a small rocky core surrounded by water, methane, and ammonia ices, with a thick outer atmosphere.
+        </p>
+        <p class="surface-geology hidden">
+          As a gas giant, Neptune has no solid surface. Its atmosphere is dynamic with powerful storms and high-speed winds.
+        </p>
+        <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Neptune" target="_blank">Wikipedia</a></p>
+        <div class="tabs">
+          <button class="tab active" data-tab="overview">01 OVERVIEW</button>
+          <button class="tab" data-tab="internal-structure">02 INTERNAL STRUCTURE</button>
+          <button class="tab" data-tab="surface-geology">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="planet-stats">
+      <div class="stat">
+        <h3>ROTATION TIME</h3>
+        <p>16.1 HOURS</p>
+      </div>
+      <div class="stat">
+        <h3>REVOLUTION TIME</h3>
+        <p>164.8 YEARS</p>
+      </div>
+      <div class="stat">
+        <h3>RADIUS</h3>
+        <p>24,622 KM</p>
+      </div>
+      <div class="stat">
+        <h3>AVERAGE TEMP.</h3>
+        <p>-201°C</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

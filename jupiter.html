@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Planets - Jupiter</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>THE PLANETS</h1>
+      <ul class="nav-links">
+        <li><a href="mercury.html">MERCURY</a></li>
+        <li><a href="venus.html">VENUS</a></li>
+        <li><a href="earth.html">EARTH</a></li>
+        <li><a href="mars.html">MARS</a></li>
+        <li><a href="jupiter.html" class="active">JUPITER</a></li>
+        <li><a href="saturn.html">SATURN</a></li>
+        <li><a href="uranus.html">URANUS</a></li>
+        <li><a href="neptune.html">NEPTUNE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="planet-info">
+      <div class="planet-img jupiter">
+        <img src="images/planet-jupiter.svg" alt="Jupiter" style="width: 250px; display: block; margin: 20px auto;" />
+      </div>
+      <div class="planet-details">
+        <h2>JUPITER</h2>
+        <p class="overview active">
+          Jupiter is the largest planet in our solar system. It's a gas giant with a powerful magnetic field and dozens of moons.
+        </p>
+        <p class="internal-structure hidden">
+          Jupiter has a small rocky core surrounded by a deep layer of metallic hydrogen and an outer layer of molecular hydrogen.
+        </p>
+        <p class="surface-geology hidden">
+          Jupiter has no solid surface. Its outer layer is composed of thick clouds with bands and the Great Red Spot storm.
+        </p>
+        <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Jupiter" target="_blank">Wikipedia</a></p>
+        <div class="tabs">
+          <button class="tab active" data-tab="overview">01 OVERVIEW</button>
+          <button class="tab" data-tab="internal-structure">02 INTERNAL STRUCTURE</button>
+          <button class="tab" data-tab="surface-geology">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="planet-stats">
+      <div class="stat">
+        <h3>ROTATION TIME</h3>
+        <p>9.93 HOURS</p>
+      </div>
+      <div class="stat">
+        <h3>REVOLUTION TIME</h3>
+        <p>11.86 YEARS</p>
+      </div>
+      <div class="stat">
+        <h3>RADIUS</h3>
+        <p>69,911 KM</p>
+      </div>
+      <div class="stat">
+        <h3>AVERAGE TEMP.</h3>
+        <p>-108°C</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

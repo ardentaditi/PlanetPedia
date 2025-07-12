@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Planets - Earth</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>THE PLANETS</h1>
+      <ul class="nav-links">
+        <li><a href="mercury.html">MERCURY</a></li>
+        <li><a href="venus.html">VENUS</a></li>
+        <li><a href="earth.html" class="active">EARTH</a></li>
+        <li><a href="mars.html">MARS</a></li>
+        <li><a href="jupiter.html">JUPITER</a></li>
+        <li><a href="saturn.html">SATURN</a></li>
+        <li><a href="uranus.html">URANUS</a></li>
+        <li><a href="neptune.html">NEPTUNE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="planet-info">
+      <div class="planet-img earth">
+        <img src="images/planet-earth.svg" alt="Mars" style="width: 250px; display: block; margin: 20px auto;" />
+      </div>
+      <div class="planet-details">
+        <h2>EARTH</h2>
+        <p class="overview active">
+          Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth’s surface is land with remaining 70.8% covered with water. Earth’s distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.
+        </p>
+        <p class="internal-structure hidden">
+          Earth has a layered internal structure: a solid inner core, a liquid outer core, a viscous mantle, and a solid crust. The movement of the liquid outer core generates Earth’s magnetic field.
+        </p>
+        <p class="surface-geology hidden">
+          Earth's surface features mountains, valleys, plateaus, and ocean basins. Plate tectonics continuously reshape the surface, causing earthquakes and volcanic activity.
+        </p>
+        <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Earth" target="_blank">Wikipedia</a></p>
+        <div class="tabs">
+          <button class="tab active" data-tab="overview">01 OVERVIEW</button>
+          <button class="tab" data-tab="internal-structure">02 INTERNAL STRUCTURE</button>
+          <button class="tab" data-tab="surface-geology">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="planet-stats">
+      <div class="stat">
+        <h3>ROTATION TIME</h3>
+        <p>0.99 DAYS</p>
+      </div>
+      <div class="stat">
+        <h3>REVOLUTION TIME</h3>
+        <p>365.26 DAYS</p>
+      </div>
+      <div class="stat">
+        <h3>RADIUS</h3>
+        <p>6,371 KM</p>
+      </div>
+      <div class="stat">
+        <h3>AVERAGE TEMP.</h3>
+        <p>16°C</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
